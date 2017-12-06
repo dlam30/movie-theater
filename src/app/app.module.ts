@@ -10,6 +10,8 @@ import { ShowtimeComponent } from './showtime/showtime.component';
 import { PurchaseComponent } from './purchase/purchase.component';
 import { ShowtimeService } from './showtime.service';
 import { PurchaseButtonsComponent } from './purchase-buttons/purchase-buttons.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { CheckoutService } from './checkout.service';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,14 @@ import { PurchaseButtonsComponent } from './purchase-buttons/purchase-buttons.co
     MovieDetailComponent,
     ShowtimeComponent,
     PurchaseComponent,
-    PurchaseButtonsComponent
+    PurchaseButtonsComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ MovieService, ShowtimeService ],
+  providers: [ MovieService, ShowtimeService, CheckoutService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

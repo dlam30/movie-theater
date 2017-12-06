@@ -3,6 +3,10 @@ div {
     text-align: center;
 }
 
+#main {
+    height: stretch;
+}
+
 label {
     color: white;
     font-size: 40px;

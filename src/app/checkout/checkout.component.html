@@ -1,0 +1,31 @@
+<div id="main">
+    <label id="confirm">Confirmation</label>
+    <br />
+    <label id="movie">{{movie}}</label>
+    <div>
+        <table class="table">
+            <tr>
+                <th>
+                    Ticket #
+                </th>
+                <th>
+                    Time
+                </th>
+                <th>
+                    Date
+                </th>
+            </tr>
+            <tr *ngFor="let ticket of tickets">
+                <td>
+                    {{ticket.code}}
+                </td>
+                <td>
+                    {{time}}
+                </td>
+                <td>
+                    {{date}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

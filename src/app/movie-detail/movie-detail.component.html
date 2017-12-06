@@ -1,5 +1,16 @@
-<h1>
-    <img src="{{movie.img}}" width="220" height="322"/>
-    <br />
-    <label>{{ movie.name }}</label>
-</h1>
+<div id="main">
+    <div id="left">
+        <img src="{{movie.img}}" width="220" height="322"/>
+        <br />
+        <button routerLink="/showtime/{{movie.id}}" id="getTicketBtn" class="btn btn-primary">Get Ticket</button>
+    </div>
+    <div id="right">
+        <label>{{movie.name}}</label>
+        <br />
+        <label>{{movie.length}}</label>
+        <br />
+        <label>{{movie.genre}}</label>
+        <label id="bar">|</label>
+        <label>{{movie.rated}}</label>
+    </div>
+</div>

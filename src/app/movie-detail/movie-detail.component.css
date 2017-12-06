@@ -1,3 +1,41 @@
 label {
+    font-size: 30px;
     color: white;
+}
+
+#main {
+    height: stretch;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: left;
+    margin-left: 50px;
+}
+
+#bar {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#getTicketBtn {
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border-color: white;
+    width: 220px;
+    margin-top: 20px;
+}
+
+#getTicketBtn:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+#getTicketBtn:focus {
+    outline: 0;
 }

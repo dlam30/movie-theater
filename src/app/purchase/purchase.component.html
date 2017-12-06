@@ -1,4 +1,4 @@
-<div>
+<div id="main">
     <label id="name">{{ movie.name }}</label>
     <br />
     <label>{{ time }}</label>
@@ -7,7 +7,7 @@
     <br />
     <app-purchase-buttons></app-purchase-buttons>
     <div id="proceed">
-        <button class="customBtn btn" id="back">Back</button>
-        <button class="customBtn btn" id="checkout">Checkout</button>
+        <button class="customBtn btn" id="back" (click)="goBack()">Back</button>
+        <button class="customBtn btn" id="checkout" (click)="checkout()" >Checkout</button>
     </div>
 </div>

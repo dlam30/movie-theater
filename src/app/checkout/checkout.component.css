@@ -1,0 +1,25 @@
+label {
+    color: white;
+}
+
+#main {
+    height: stretch;
+}
+
+#confirm {
+    font-size: 40px;
+}
+
+#movie {
+    font-size: 30px;
+}
+
+th {
+    color: white;
+    font-size: 20px;
+}
+
+td {
+    color: white;
+    font-size: 15px;
+}
