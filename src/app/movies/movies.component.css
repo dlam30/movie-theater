@@ -1,0 +1,29 @@
+#getTicketBtn {
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border-color: white;
+}
+
+#getTicketBtn:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+#getTicketBtn:focus {
+    outline: 0;
+}
+
+#movie-name {
+    font-size: 20px;
+    color: white;
+}
+
+#movie-grid {
+    margin-bottom: 50px;
+    padding: 0px;
+}
+div.row {
+    padding: 2%;
+}

@@ -1,0 +1,46 @@
+div {
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-size: 40px;
+}
+
+.customBtn {
+    width: 120px;
+    background-color: black;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+}
+
+.customBtn:hover {
+    background-color: red;
+    border-color: white;
+    color: white;
+}
+
+.customBtn:focus {
+    outline: none !important;
+    color: white;
+}
+
+#proceed {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 280px;
+}
+
+#back {
+    float: left;
+}
+
+#checkout {
+    float: right;
+}
+
+#name {
+    margin-top: 80px;
+}

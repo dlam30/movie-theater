@@ -1,0 +1,16 @@
+#body {
+    background-color: rgba(34, 34, 34, 0.7);
+}
+a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: white;
+}
+
+a:focus {
+    color: white;
+}

@@ -1,0 +1,37 @@
+label {
+    color: white;
+}
+
+.showtimeBtn {
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 150px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 8px;
+}
+
+.showtimeBtn:focus {
+    outline: none;
+}
+
+.showtimeBtn:hover {
+    background-color: white;
+    color: black;
+}
+div.row {
+    height: stretch;
+}
+#timeLabel {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}

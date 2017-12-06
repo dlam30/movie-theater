@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-2 showdate" *ngFor="let showtime of showtimes">
+            <table>
+                <tr>
+                    <th>
+                        <label>{{showtime.date}}</label>
+                    </th>
+                </tr>
+                <tr *ngFor="let time of showtime.time">
+                    <td class="showtimeRow">
+                        <a routerLink="/purchase/{{id}}/{{showtimeId}}/{{time}}">
+                            <button class="showtimeBtn" (click)="getShowtimeId(showtime.date, time)">
+                                {{time}}
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+    </div>
+</div>

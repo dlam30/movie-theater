@@ -1,0 +1,30 @@
+
+<!-- <ul>
+    <li *ngFor="let movie of movies">
+        <div class=>
+            <img src={{movie.img}} width="220" height="336"/>
+            <br />
+            <label>Movie name: {{ movie.name }}</label>
+            <br />
+            <button (click)="goToGetTicket()">Get Ticket</button>
+        </div>
+    </li>
+</ul> -->
+
+<div class="row">
+    <div class="col-md-3" *ngFor="let movie of movies">
+        <div class="bg"></div>
+        <div id="movie-grid">
+            <div class="movie">
+                <a routerLink="/detail/{{movie.id}}"><img src={{movie.img}} width="220" height="322"/></a>
+                <br />
+                <label id="movie-name">{{ movie.name }}</label>
+                <br />
+                <a routerLink="/showtime/{{movie.id}}">
+                    <button id="getTicketBtn" class="btn btn-primary">Get Ticket</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
